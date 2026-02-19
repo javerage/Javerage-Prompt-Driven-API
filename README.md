@@ -20,6 +20,12 @@ The goal of this project is to showcase the workflow of an expert developer usin
 - **Language/Framework:** [e.g., C# / .NET or Python / FastAPI]
 - **AI Tools:** [e.g., GitHub Copilot, Cursor, or ChatGPT]
 
+## 📸 Connect & Learn
+
+Si te apasiona el desarrollo impulsado por IA y el **Videocoding**, ¡no te pierdas el contenido diario! Comparto tips, procesos detrás de cámaras y nuevas fronteras de la ingeniería de software.
+
+👉 [**Sigue la aventura en Instagram @javeragedev**](https://www.instagram.com/javeragedev) 🚀
+
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
