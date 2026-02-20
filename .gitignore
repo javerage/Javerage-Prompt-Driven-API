@@ -36,6 +36,36 @@ ScaffoldingReadMe.txt
 # NuGet Symbol Packages
 *.snupkg
 
+# IDEs and Editors
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscfg
+*.sln.docstates
+
+# User Secrets & Local Config
+appsettings.Development.json
+secrets.json
+.env
+.env.*
+*.local.config
+
+# Database files
+*.mdf
+*.ldf
+*.db
+*.db-shm
+*.db-wal
+
+# macOS Specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
 # Others
 ~$*
 *~

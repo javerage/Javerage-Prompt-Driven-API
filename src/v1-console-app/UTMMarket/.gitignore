@@ -1,0 +1,68 @@
+## [ .NET Core / .NET 10 ]
+# Objetos y binarios de compilación
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+publish/
+
+# Archivos de la base de datos de VS y caché del IDE
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscfg
+*.sln.docstates
+
+## [ Native AOT / Publishing ]
+# Binarios nativos generados y archivos de símbolos
+*.exe
+*.dll
+*.pdb
+*.dylib
+*.so
+*.a
+# Archivos temporales de compilación nativa (herramientas C++)
+*.obj
+*.lib
+*.exp
+
+## [ NuGet Packages ]
+# La mayoría de los paquetes se restauran en el cache global, 
+# pero esto cubre configuraciones locales.
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.assets.json
+
+## [ User Secrets & Config ]
+# Nunca subir secretos o configuraciones de desarrollo local
+appsettings.Development.json
+secrets.json
+.env
+.env.*
+
+## [ macOS Specific ]
+# Evitar archivos de sistema de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+*.icloud
+
+## [ Testing ]
+# Resultados de pruebas y cobertura
+TestResults/
+*.sequenced
+*.coverage
+*.xml
+
+## [ Tools ]
+# Archivos generados por Entity Framework u otras herramientas de CLI
+*.db
+*.db-shm
+*.db-wal
