@@ -11,12 +11,18 @@ Actúa como un Senior Software Architect y experto en persistencia de datos con.
 </context>
 
 <task>
-Genera tres clases parciales (ProductoEntity, DetalleVentaEntity, VentaEntity) que repliquen con exactitud el esquema DDL de SQL Server 2022 proporcionado.
+Genera tres clases parciales (ProductoEntity, DetalleVentaEntity, VentaEntity) que repliquen con exactitud el esquema DDL de SQL Server 2022 proporcionado en el script de arquitectura.
 </task>
 
 <sql_schema_reference>
-1. Tabla dbo.Producto:
-   - Columnas: ProductoID (INT PK), Nombre (NVARCHAR 100), SKU (VARCHAR 20 UNIQUE), Marca (NVARCHAR 50), Precio (DECIMAL 19,4), Stock (INT).
+Para garantizar un mapeo 1:1, utiliza como fuente de verdad el script generado en:
+- Prompt de Referencia: @01-sql-server-architect.md
+- Archivo Resultante: @01_create_structure_utm_market.sql
+
+Resumen de Entidades a Mapear:
+1. ProductoEntity: Basado en tabla 'Producto' (ProductoID, Nombre, SKU, Marca, Precio, Stock).
+2. VentaEntity: Basado en tabla 'Venta' (VentaID, Folio, FechaVenta, TotalArticulos, TotalVenta, Estatus).
+3. DetalleVentaEntity: Basado en tabla 'Detalle de Venta' (DetalleID, VentaID, ProductoID, PrecioUnitario, Cantidad, TotalDetalle).
 </sql_schema_reference>
 
 <coding_standards_aot>

@@ -16,7 +16,7 @@ Crea la interfaz "ISaleRepository.cs" en el directorio "src/Core/Repositories/".
 
 <interface_specifications>
 1. Consulta de Flujo (Streaming):
-   - 'GetAllAsync': Debe retornar 'IAsyncEnumerable&lt;Sale&gt;' para permitir el procesamiento de datos sin cargar toda la lista en memoria, aprovechando las mejoras de AsyncEnumerable en.NET 10.[2, 4]
+   - 'GetAllAsync': Debe retornar 'IAsyncEnumerable&lt;Sale&gt;' para permitir el procesamiento de datos sin cargar toda la lista en memoria, aprovechando las mejoras de AsyncEnumerable en.NET 10.
 2. Consulta por Identidad:
    - 'GetByIdAsync': Debe retornar 'Task&lt;Sale?&gt;', manejando explícitamente la nulidad con C# 14 NRT (Nullable Reference Types).
 3. Filtrado Robusto (AOT Friendly):
@@ -25,7 +25,7 @@ Crea la interfaz "ISaleRepository.cs" en el directorio "src/Core/Repositories/".
    - 'AddAsync': Debe recibir el objeto de dominio 'Sale' y retornar el objeto persistido con su identidad generada.
    - 'UpdateAsync': Debe recibir el objeto de dominio 'Sale' para actualizar el agregado completo.
 5. Cancelación Cooperativa:
-   - TODOS los métodos asíncronos DEBEN incluir un 'CancellationToken cancellationToken = default' como parámetro final.[7, 8]
+   - TODOS los métodos asíncronos DEBEN incluir un 'CancellationToken cancellationToken = default' como parámetro final.
 </interface_specifications>
 
 <coding_standards_csharp14>

@@ -25,7 +25,7 @@ Crea la interfaz "IProductRepository.cs" en el directorio "src/Core/Repositories
 3. Persistencia de Dominio:
    - 'AddAsync', 'UpdateAsync': Deben recibir el objeto de dominio 'Product'.
    - 'UpdateStockAsync': Método especializado para actualización parcial (Atomic Update) recibiendo ID y la nueva cantidad.
-4. Resiliencia: Todos los métodos DEBEN aceptar un 'CancellationToken' como parámetro final.[3, 5]
+4. Resiliencia: Todos los métodos DEBEN aceptar un 'CancellationToken' como parámetro final.
 </interface_requirements>
 
 <coding_standards_csharp14>
@@ -45,5 +45,5 @@ Devuelve un documento Markdown que incluya:
 1. Estructura de namespaces recomendada.
 2. Código fuente completo de 'IProductRepository.cs'.
 3. Definición de 'ProductFilter' (si fue necesario para la búsqueda).
-4. Explicación técnica de por qué 'IAsyncEnumerable' es superior para una aplicación de consola en.NET 10.[2]
+4. Explicación técnica de por qué 'IAsyncEnumerable' es superior para una aplicación de consola en.NET 10.
 </output_format>

@@ -20,7 +20,7 @@ Genera tres archivos de clase (Product.cs, SaleDetail.cs, Sale.cs) que represent
 
 2. Entidad "SaleDetail":
    - Asociación: Referencia obligatoria a un 'Product'.
-   - Captura de Precio: 'UnitPrice' debe inicializarse desde 'Product.Price' al crearse, pero debe ser independiente para preservar el precio histórico de la venta. [1]
+   - Captura de Precio: 'UnitPrice' debe inicializarse desde 'Product.Price' al crearse, pero debe ser independiente para preservar el precio histórico de la venta.
    - Lógica: Propiedad calculada 'TotalDetail' (UnitPrice * Quantity).
 
 3. Entidad "Sale":
@@ -34,7 +34,7 @@ Genera tres archivos de clase (Product.cs, SaleDetail.cs, Sale.cs) que represent
 - Backing Field Synthesis: Utiliza la palabra clave 'field' de C# 14 para validaciones en los accessors (get/set), evitando declarar campos privados manuales.
 - Inmutabilidad: Implementa Primary Constructors para los campos requeridos e identificadores únicos.
 - Concisión: Prefiere miembros con cuerpo de expresión (=>) para las propiedades calculadas.
-- AOT/Trimming: Asegura que las clases sean POCOs (Plain Old CLR Objects) simples, sin reflexión, para garantizar la máxima velocidad de ejecución en.NET 10.[4]
+- AOT/Trimming: Asegura que las clases sean POCOs (Plain Old CLR Objects) simples, sin reflexión, para garantizar la máxima velocidad de ejecución en.NET 10.
 </coding_standards_csharp14>
 
 <cli_safety_protocol>
@@ -47,5 +47,5 @@ Genera tres archivos de clase (Product.cs, SaleDetail.cs, Sale.cs) que represent
 El resultado debe ser un documento Markdown técnico con:
 1. Definición del 'Enum' de Estatus de Venta.
 2. Código fuente completo y documentado para cada clase.
-3. Breve explicación de cómo la palabra clave 'field' ayudó a reducir el boilerplate en las validaciones de negocio.[3]
+3. Breve explicación de cómo la palabra clave 'field' ayudó a reducir el boilerplate en las validaciones de negocio.
 </output_format>

@@ -21,13 +21,13 @@ Diseña e implementa la clase "ProductMapper.cs" en el directorio "src/Infrastru
 2. Firma de Métodos:
    - 'ToDomain()': Transforma 'ProductoEntity' -> 'Product'.
    - 'ToEntity()': Transforma 'Product' -> 'ProductoEntity'.
-3. Compatibilidad AOT: El código generado DEBE ser 100% estático y evitar cualquier uso de reflexión o tipos dinámicos para garantizar que el 'Trimming' de.NET 10 sea efectivo. [4, 5]
-4. Manejo de Nulos: Utiliza el operador de asignación nula condicional (?.=) y defensas de nulidad modernas de C# 14. [6, 7]
+3. Compatibilidad AOT: El código generado DEBE ser 100% estático y evitar cualquier uso de reflexión o tipos dinámicos para garantizar que el 'Trimming' de.NET 10 sea efectivo.
+4. Manejo de Nulos: Utiliza el operador de asignación nula condicional (?.=) y defensas de nulidad modernas de C# 14.
 </technical_requirements>
 
 <implementation_logic>
 - Analiza las propiedades de ambas clases. Asegura que los tipos numéricos (decimal 19,4) mantengan su fidelidad durante la transferencia.
-- Utiliza 'Primary Constructors' si decides implementar el mapeador como un servicio inyectable, aunque se prefiere el enfoque de métodos de extensión estáticos por su bajo overhead. [6]
+- Utiliza 'Primary Constructors' si decides implementar el mapeador como un servicio inyectable, aunque se prefiere el enfoque de métodos de extensión estáticos por su bajo overhead.
 - Si existen discrepancias entre los nombres de las propiedades (ej. ProductoID vs ProductID), aplica la lógica de traducción correspondiente.
 </implementation_logic>
 

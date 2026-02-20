@@ -26,8 +26,8 @@ Diseña e implementa la clase "SaleMapper.cs" en el directorio "src/Infrastructu
 
 <implementation_logic>
 - Analiza las dependencias jerárquicas: Para mapear una Venta, primero debes saber cómo mapear sus Detalles.
-- Usa constructores primarios (Primary Constructors) si el mapeador requiere inyección de lógica de redondeo o configuración, aunque se prefiere el enfoque de extensión estática. [5]
-- Manejo de Nulidad: Implementa el operador de asignación nula condicional (?.=) para las colecciones de detalles si son opcionales en la entidad. [5, 6]
+- Usa constructores primarios (Primary Constructors) si el mapeador requiere inyección de lógica de redondeo o configuración, aunque se prefiere el enfoque de extensión estática.
+- Manejo de Nulidad: Implementa el operador de asignación nula condicional (?.=) para las colecciones de detalles si son opcionales en la entidad.
 </implementation_logic>
 
 <cli_safety_protocol>
@@ -41,5 +41,5 @@ Devuelve un documento Markdown que contenga:
 1. Árbol de directorios de la capa de infraestructura.
 2. Código fuente completo de 'SaleMapper.cs' con comentarios técnicos detallados.
 3. Ejemplo de uso: Cómo un repositorio recuperaría una 'VentaEntity' de Dapper y la devolvería como un objeto 'Sale'.
-4. Nota de arquitectura sobre los beneficios de usar C# 14 Extension Members en este escenario. [1, 7]
+4. Nota de arquitectura sobre los beneficios de usar C# 14 Extension Members en este escenario.
 </output_format>
