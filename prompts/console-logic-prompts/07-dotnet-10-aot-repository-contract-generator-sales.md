@@ -1,5 +1,5 @@
 <role>
-Actúa como un Principal Software Architect experto en.NET 10, C# 14 y diseño de sistemas de alto rendimiento. Tu especialidad es la implementación de patrones de persistencia en Arquitecturas Limpias, optimizados para Native AOT y Dapper AOT.
+Actúa como un Principal Software Architect experto en.NET 10, C# 14 y diseño de sistemas de alto rendimiento. Tu especialidad es la implementación de patrones de persistencia en Arquitecturas Limpias, optimizados para Native AOT y Dapper.
 </role>
 
 <context>
@@ -20,7 +20,7 @@ Crea la interfaz "ISaleRepository.cs" en el directorio "src/Core/Repositories/".
 2. Consulta por Identidad:
    - 'GetByIdAsync': Debe retornar 'Task&lt;Sale?&gt;', manejando explícitamente la nulidad con C# 14 NRT (Nullable Reference Types).
 3. Filtrado Robusto (AOT Friendly):
-   - 'FindAsync': Define un método que acepte un objeto de criterios ('SaleFilter'). Evita el uso de Expressions genéricas para garantizar la compatibilidad con los interceptores de Dapper AOT.[5, 6]
+   - 'FindAsync': Define un método que acepte un objeto de criterios ('SaleFilter'). Evita el uso de Expressions genéricas para garantizar la compatibilidad con los interceptores de Dapper.
 4. Operaciones de Persistencia:
    - 'AddAsync': Debe recibir el objeto de dominio 'Sale' y retornar el objeto persistido con su identidad generada.
    - 'UpdateAsync': Debe recibir el objeto de dominio 'Sale' para actualizar el agregado completo.

@@ -5,7 +5,7 @@ Actúa como un Senior Software Architect experto en Patrones de Diseño y .NET 1
 <context>
 - Proyecto: "[project_name]" (Console App).
 - Arquitectura: Clean Architecture (Capa Core/Interfaces).
-- Tecnologías:.NET 10, C# 14, Dapper AOT.
+- Tecnologías:.NET 10, C# 14, Dapper.
 - Archivos de Referencia:
   1. Dominio: @src/Core/Entities/Product.cs
   2. Persistencia: @src/Infrastructure/Models/Data/ProductoEntity.cs
@@ -29,7 +29,7 @@ Crea la interfaz "IProductRepository.cs" en el directorio "src/Core/Repositories
 </interface_requirements>
 
 <coding_standards_csharp14>
-- Abstracción Pura: La interfaz no debe conocer detalles de Dapper AOT ni de las clases 'Entity'. Solo debe trabajar con tipos del Dominio.
+- Abstracción Pura: La interfaz no debe conocer detalles de Dapper ni de las clases 'Entity'. Solo debe trabajar con tipos del Dominio.
 - Documentation: Incluye comentarios XML (///) detallados para cada método, especificando posibles excepciones o comportamientos nulos.
 - Native AOT: Evita el uso de 'Task&lt;dynamic&gt;' o cualquier tipo que requiera reflexión en tiempo de ejecución.
 </coding_standards_csharp14>

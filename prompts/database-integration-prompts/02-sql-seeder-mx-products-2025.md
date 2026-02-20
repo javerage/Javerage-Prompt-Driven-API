@@ -18,7 +18,7 @@ Genera un script SQL que registre exactamente 250 productos de alta rotación en
 1. Fuentes: Basa los datos en "Brand Footprint 2025" (Kantar) y reportes de la ANAM 2025.
 2. Mix de Inventario: Refrescos (25%), Botanas (20%), Lácteos (15%), Panadería (15%), Abarrotes (15%), Higiene (10%).
 3. Precisión de Precios: Usa precios reales de 2025 ajustados por IEPS e inflación.
-4. Estándar SKU: Genera códigos de 13 dígitos cumpliendo el estándar EAN-13 (prefijo 750).
+4. Estándar SKU: Genera códigos únicos de 13 dígitos que no se repitan en el script cumpliendo el estándar EAN-13 (prefijo 750).
 </market_data_requirements>
 
 <sql_best_practices>

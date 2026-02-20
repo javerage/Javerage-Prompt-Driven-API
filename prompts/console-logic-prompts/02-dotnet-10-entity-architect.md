@@ -5,7 +5,7 @@ Actúa como un Senior Software Architect experto en Domain-Driven Design (DDD),.
 <context>
 - Proyecto: [project_name] (Aplicación de consola).
 - Arquitectura: Clean Architecture (Capa Core/Entities).
-- Restricción Técnica: Clases puras de dominio sin atributos de persistencia ni dependencias de ORM. El mapeo a base de datos se realizará en una capa distinta para Dapper AOT.
+- Restricción Técnica: Clases puras de dominio sin atributos de persistencia ni dependencias de ORM. El mapeo a base de datos se realizará en una capa distinta para Dapper.
 - Ubicación: "src/Core/Entities/".
 </context>
 

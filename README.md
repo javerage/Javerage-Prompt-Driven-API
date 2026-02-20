@@ -1,4 +1,4 @@
-# Javergae-Prompt-Driven-API
+# Javerage-Prompt-Driven-API
 
 Welcome to the **Javergae** experimental lab. This repository demonstrates the power of **Videocoding** and AI-assisted development to build a functional RESTful API from scratch.
 

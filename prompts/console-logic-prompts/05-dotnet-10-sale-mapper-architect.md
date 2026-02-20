@@ -5,7 +5,7 @@ Actúa como un Senior Software Architect experto en Clean Architecture y optimiz
 <context>
 - Proyecto: "[project_name]" (Console App).
 - Objetivo: Implementar el mapeo bidireccional entre la capa de Persistencia (VentaEntity/DetalleVentaEntity) y la capa de Dominio (Sale/SaleDetail).
-- Stack:.NET 10, C# 14, Dapper AOT.
+- Stack:.NET 10, C# 14, Dapper.
 - Ubicación de Archivos de Origen:
   1. Dominio: "src/Core/Entities/Sale.cs" (depende de SaleDetail.cs).
   2. Infraestructura: "src/Infrastructure/Models/Data/VentaEntity.cs" (depende de DetalleVentaEntity.cs).

@@ -6,7 +6,7 @@ Actúa como un Senior Software Architect experto en Clean Architecture y optimiz
 - Proyecto: "[project_name]" (Console App).
 - Arquitectura: Clean Architecture.
 - Objetivo: Crear la lógica de transformación entre la entidad de persistencia (ProductoEntity) y el objeto de negocio (Product).
-- Stack Técnico:.NET 10, C# 14, Dapper AOT (Mapeo sin reflexión).
+- Stack Técnico:.NET 10, C# 14, Dapper (Mapeo sin reflexión).
 - Ubicación de Archivos de Origen:
   1. Dominio: "src/Core/Entities/Product.cs"
   2. Infraestructura: "src/Infrastructure/Models/Data/ProductoEntity.cs"
