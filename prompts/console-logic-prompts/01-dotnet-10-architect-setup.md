@@ -18,6 +18,7 @@ Paquetes NuGet a instalar (asegura versiones estables para.NET 10):
 - Dapper (Opcional, priorizar ADO.NET puro si hay restricciones de reflexión).
 - Microsoft.Extensions.Hosting (Para gestión de DI y ciclo de vida).
 - Microsoft.Extensions.Configuration.UserSecrets (Para desarrollo local seguro).
+- Microsoft.Extensions.Options.DataAnnotations
 </requirements>
 
 <coding_standards>
